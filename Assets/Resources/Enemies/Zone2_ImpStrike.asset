@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5740348add0b648958a02dd8ede5d2, type: 3}
+  m_Name: Zone2_ImpStrike
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 11400000, guid: 93e28bbf635afd04caf8f4a269ccf04a, type: 2}
+  - {fileID: 11400000, guid: 16be94b4bf0044b4290680d0e867c9d0, type: 2}
+  - {fileID: 11400000, guid: 93e28bbf635afd04caf8f4a269ccf04a, type: 2}

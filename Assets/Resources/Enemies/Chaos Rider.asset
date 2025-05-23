@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc974cc77840614c9ee41bbbf680ff7, type: 3}
+  m_Name: Chaos Rider
+  m_EditorClassIdentifier: 
+  enemyName: Chaos rider
+  sprite: {fileID: 21300000, guid: 213731558b135be429a65b93e77729de, type: 3}
+  maxHP: 60
+  maxMP: 0
+  attack: 20
+  defense: 5
+  magicDefense: 10
+  agility: 10
+  goldReward: 15
+  experienceReward: 30
+  dropTable: []
+  abilities: []
+  elementalAffinities:
+  - element: 2
+    affinity: 3
+  - element: 4
+    affinity: 1
+  worldPrefab: {fileID: 7177813409159127741, guid: c7d87700860ec304e9b285aadbcb9404,
+    type: 3}
+  deathSFX: {fileID: 8300000, guid: fa8e80eb48b0a7a4193675c46f312fbb, type: 3}

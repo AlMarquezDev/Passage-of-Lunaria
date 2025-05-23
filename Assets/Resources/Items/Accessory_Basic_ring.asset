@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba071eda31b06274a9c63d0e3813c488, type: 3}
+  m_Name: Accessory_Basic_ring
+  m_EditorClassIdentifier: 
+  itemName: Basic ring
+  icon: {fileID: 21300000, guid: fc84eb3d9cb125b46af83d90fb6c6357, type: 3}
+  description: A plain ring. It feels slightly empowering
+  slotType: 3
+  bonusStats:
+    strength: 0
+    defense: 0
+    intelligence: 0
+    agility: 0
+    maxHP: 5
+    maxMP: 0
+  allowedJobs: 000000000100000002000000030000000400000005000000
+  armorType: 8
+  defensePower: 0

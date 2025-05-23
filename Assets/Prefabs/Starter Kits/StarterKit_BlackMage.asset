@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628b4b80b1a9f1f49a2ffaca825c1aec, type: 3}
+  m_Name: StarterKit_BlackMage
+  m_EditorClassIdentifier: 
+  job: 4
+  startingWeapon: {fileID: 11400000, guid: 7386e73cabd1ca34386863f1c57b0c53, type: 2}
+  startingShield: {fileID: 0}
+  startingHead: {fileID: 11400000, guid: 20634cf52f556c34883b2e950cf783dd, type: 2}
+  startingBody: {fileID: 11400000, guid: f5b4e9965f8003f4d88fa1a1bba9118a, type: 2}
+  startingAccessory: {fileID: 11400000, guid: 647fd7c1e1df0464e8e1cbbcf4af7c76, type: 2}
+  startingAbilities:
+  - {fileID: 11400000, guid: 7ab35947164fe7a4b8e4923ad8c537ee, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2f47b36f96d9646a3aa421abacd078, type: 3}
+  m_Name: Consumable_Ether
+  m_EditorClassIdentifier: 
+  itemName: Ether
+  icon: {fileID: 21300000, guid: 0ac6b864bd64203479a1bcd0516292f9, type: 3}
+  description: Distilled magical essence that restores 40 MP
+  restoreHP: 0
+  restoreMP: 40
+  fullRestore: 0
+  revives: 0
+  reviveHPPercent: 0
+  curesAilments: 
+  targetType: 1
+  useDescription: 
+  useSound: {fileID: 8300000, guid: 0a03f35458c9f574e9d013fa9eda5998, type: 3}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf782dc42c28754aa858057da265bbf, type: 3}
+  m_Name: Soul drain
+  m_EditorClassIdentifier: 
+  abilityName: Soul Drain
+  mpCost: 0
+  targetType: 0
+  damageFormula:
+    useSTR: 0
+    strMultiplier: 0.9
+    useINT: 1
+    intMultiplier: 1
+    useAGI: 0
+    agiMultiplier: 0
+    FlatBonusDamage: 7
+  isHealing: 0
+  statusChance: 0
+  inflictsStatusAilments: 
+  targetVFXPrefab: {fileID: 5642766282230003982, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+    type: 3}
+  targetVFXDuration: 4
+  executionSound: {fileID: 8300000, guid: 0a03f35458c9f574e9d013fa9eda5998, type: 3}

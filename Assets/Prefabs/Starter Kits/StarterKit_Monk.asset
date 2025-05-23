@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628b4b80b1a9f1f49a2ffaca825c1aec, type: 3}
+  m_Name: StarterKit_Monk
+  m_EditorClassIdentifier: 
+  job: 2
+  startingWeapon: {fileID: 11400000, guid: 5a4380d3830f8554ebd22fb4e75dcac0, type: 2}
+  startingShield: {fileID: 0}
+  startingHead: {fileID: 11400000, guid: 20634cf52f556c34883b2e950cf783dd, type: 2}
+  startingBody: {fileID: 11400000, guid: a2da8e70fb454414f94b264d433dc6e3, type: 2}
+  startingAccessory: {fileID: 11400000, guid: 942fb09bae8371940a4393f9824d5c67, type: 2}
+  startingAbilities:
+  - {fileID: 11400000, guid: 615c5052893a4c24a9aaf157a1e2a45c, type: 2}

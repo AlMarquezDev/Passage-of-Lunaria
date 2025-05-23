@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba071eda31b06274a9c63d0e3813c488, type: 3}
+  m_Name: Headgear_Leather_cap
+  m_EditorClassIdentifier: 
+  itemName: Leather cap
+  icon: {fileID: 21300000, guid: ff4daa732877a6b4385389f2a67a6260, type: 3}
+  description: A basic cap made of hardened leather, offering minimal protection
+  slotType: 2
+  bonusStats:
+    strength: 0
+    defense: 0
+    intelligence: 0
+    agility: 0
+    maxHP: 0
+    maxMP: 0
+  allowedJobs: 000000000100000002000000030000000400000005000000
+  armorType: 1
+  defensePower: 2

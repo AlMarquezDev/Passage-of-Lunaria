@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e082005410d1aba4da646b600d2f7296, type: 3}
+  m_Name: Warrior01_Power_strike
+  m_EditorClassIdentifier: 
+  abilityName: Power strike
+  description: Focuses strength into a single powerful blow
+  mpCost: 5
+  abilityType: 0
+  icon: {fileID: 0}
+  isHealing: 0
+  inflictsStatusAilments: 
+  statusChance: 0
+  damageFormula:
+    useSTR: 1
+    strMultiplier: 0.8
+    useINT: 0
+    intMultiplier: 0
+    useAGI: 0
+    agiMultiplier: 0
+    FlatBonusDamage: 10
+  abilityElement: 0
+  targetVFXPrefab: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0,
+    type: 3}
+  targetVFXDuration: 3
+  requiresTravel: 1
+  executionSound: {fileID: 8300000, guid: f89d5f61db600ef4dbfbd1b42aa973ad, type: 3}
+  targetType: 0

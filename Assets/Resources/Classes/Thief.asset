@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d23bcbb3b38794b93f5d844e0caab0, type: 3}
+  m_Name: Thief
+  m_EditorClassIdentifier: 
+  characterJob: 1
+  classSprite: {fileID: 21300000, guid: 18afae562a113444b818ff36f5f0d624, type: 3}
+  portrait: {fileID: 21300000, guid: fd669747362fdef4493460c45195b56b, type: 3}
+  className: Thief
+  classDescription: Agile dagger or sword wielder focused on speed, evasion, and
+    quick physical strikes
+  baseHP: 50
+  baseMP: 15
+  strength: 10
+  defense: 7
+  intelligence: 7
+  agility: 15
+  hpGrowth: 10
+  mpGrowth: 3
+  strengthGrowth: 3
+  defenseGrowth: 2
+  intelligenceGrowth: 2
+  agilityGrowth: 4
+  allowedWeaponTypes: 0000000001000000020000000300000004000000
+  allowedArmorTypes: 00000000010000000200000004000000050000000700000008000000
+  learnableAbilities:
+  - ability: {fileID: 11400000, guid: 504c226e2defe1242961a0fd355fc90e, type: 2}
+    levelLearned: 1
+  - ability: {fileID: 11400000, guid: 8ba4a090c01165146a5d8bcaaf0d6c43, type: 2}
+    levelLearned: 2
+  - ability: {fileID: 11400000, guid: 73735fc4749505f469ce8735039aa1fc, type: 2}
+    levelLearned: 3
+  battleSprite: {fileID: 21300000, guid: 18afae562a113444b818ff36f5f0d624, type: 3}
+  idleAnimation: {fileID: 7400000, guid: 37ff0120b1844a74a90bd7cf1b5942cd, type: 2}
+  travelAnimation: {fileID: 7400000, guid: b7f3dc448ef72fa4e926d9686300f852, type: 2}
+  attackAnimation: {fileID: 7400000, guid: 44cc9706471159c428a5a0a4213f3809, type: 2}
+  receivedDamageAnimation: {fileID: 7400000, guid: fe98b5b3fac27ea4d8ebcae1599b77d6,
+    type: 2}
+  deadAnimation: {fileID: 7400000, guid: 39455c853794a05408327539387d1951, type: 2}
+  attackSFX: {fileID: 8300000, guid: b18e9eb5866be0a40b6ae43c68805cd6, type: 3}
+  travelVFXPrefab: {fileID: 2393817908272368249, guid: 26169785b8e30c944a512729256a05cd,
+    type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63ddf8a5ff729844a871eff3651a337, type: 3}
+  m_Name: Weapon_Short_sword
+  m_EditorClassIdentifier: 
+  itemName: Short sword
+  icon: {fileID: 21300000, guid: f09e48c901cf0b0468a0b4879cecca20, type: 3}
+  description: A standard short sword, reliable in a novice warrior's hand
+  slotType: 0
+  bonusStats:
+    strength: 0
+    defense: 0
+    intelligence: 0
+    agility: 0
+    maxHP: 0
+    maxMP: 0
+  allowedJobs: 0000000003000000
+  weaponType: 3
+  attackPower: 8

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d23bcbb3b38794b93f5d844e0caab0, type: 3}
+  m_Name: Monk
+  m_EditorClassIdentifier: 
+  characterJob: 2
+  classSprite: {fileID: 21300000, guid: 616caff487104424c8548462536b1da8, type: 3}
+  portrait: {fileID: 21300000, guid: e5fdd0f90aa3c634f9bafadee109732a, type: 3}
+  className: Monk
+  classDescription: Martial artist wielding nunchakus, specializing in fast, high-impact
+    physical attacks with minimal armor
+  baseHP: 55
+  baseMP: 12
+  strength: 12
+  defense: 8
+  intelligence: 6
+  agility: 12
+  hpGrowth: 12
+  mpGrowth: 2
+  strengthGrowth: 4
+  defenseGrowth: 2
+  intelligenceGrowth: 1
+  agilityGrowth: 3
+  allowedWeaponTypes: 0000000001000000
+  allowedArmorTypes: 010000000200000004000000050000000700000008000000
+  learnableAbilities:
+  - ability: {fileID: 11400000, guid: 615c5052893a4c24a9aaf157a1e2a45c, type: 2}
+    levelLearned: 1
+  - ability: {fileID: 11400000, guid: f978c0f895145ca47931b783d44fbb2d, type: 2}
+    levelLearned: 2
+  - ability: {fileID: 11400000, guid: ddbe06db83edc7443988808e8e02333d, type: 2}
+    levelLearned: 3
+  battleSprite: {fileID: 21300000, guid: 616caff487104424c8548462536b1da8, type: 3}
+  idleAnimation: {fileID: 7400000, guid: 89cc7efeff1c12e47a527d004a70a48f, type: 2}
+  travelAnimation: {fileID: 7400000, guid: f02d57c9a654f9443807477fdb451c3f, type: 2}
+  attackAnimation: {fileID: 7400000, guid: ab6072e8f0bc00e4ebf58e1bfa68e518, type: 2}
+  receivedDamageAnimation: {fileID: 7400000, guid: 1d22dcf380581b345a84add43cb819e3,
+    type: 2}
+  deadAnimation: {fileID: 7400000, guid: f0840f3f20795c24cb9750341874cae2, type: 2}
+  attackSFX: {fileID: 8300000, guid: ca65db7215e636242b7deae525ee2339, type: 3}
+  travelVFXPrefab: {fileID: 5818205763518135594, guid: 395d5ec7f996d364f94e11cfb40736d3,
+    type: 3}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game/1_MainMenu.unity
+    guid: 507ee3e6321c99941b9b98212d8a9ac3
+  - enabled: 1
+    path: Assets/Scenes/Game/2_CharactersSelection.unity
+    guid: a69a08d28fba27d41a07ee02d5e338b1
+  - enabled: 1
+    path: Assets/Scenes/Game/Overworld.unity
+    guid: d41ae882feb937941a8bb95391b46fba
+  - enabled: 1
+    path: Assets/Battle_Overworld.unity
+    guid: e5646a277e0c8254e991c988e53efa44
+  - enabled: 1
+    path: Assets/Scenes/Game/ChaosShrine.unity
+    guid: 2714daa2b56a47546b668d988c67be17
+  - enabled: 1
+    path: Assets/Scenes/Game/Battle/Battle_Shrine.unity
+    guid: eeae23806f368fd40aad91fcf14ce722
+  - enabled: 1
+    path: Assets/Scenes/Game/Battle/Battle_Garland.unity
+    guid: fb43964ee9b971a40860aa2fb79a812c
+  - enabled: 0
+    path: Assets/Scenes/Game/999_Test Grounds.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/Game/99_ChangeScene.unity
+    guid: f5657ee84be5f264aabef7045659f99b
+  - enabled: 0
+    path: Assets/Scenes/Game/Battle/Battle_Forest.unity
+    guid: f8b7f48474d6b1c4db7783036451ae6d
+  m_configObjects: {}

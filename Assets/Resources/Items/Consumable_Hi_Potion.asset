@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2f47b36f96d9646a3aa421abacd078, type: 3}
+  m_Name: Consumable_Hi_Potion
+  m_EditorClassIdentifier: 
+  itemName: Hi-Potion
+  icon: {fileID: 21300000, guid: c14f66f6b2c2fea40a5d2ee9a57c671e, type: 3}
+  description: A potent herbal remedy that restores 150 HP
+  restoreHP: 150
+  restoreMP: 0
+  fullRestore: 0
+  revives: 0
+  reviveHPPercent: 0
+  curesAilments: 
+  targetType: 1
+  useDescription: 
+  useSound: {fileID: 0}

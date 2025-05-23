@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d23bcbb3b38794b93f5d844e0caab0, type: 3}
+  m_Name: WhiteMage
+  m_EditorClassIdentifier: 
+  characterJob: 5
+  classSprite: {fileID: 21300000, guid: fa20a759f0afdb74c9e87f07e91c7342, type: 3}
+  portrait: {fileID: 21300000, guid: 79ae432942cab53458c58ef1e962dbb7, type: 3}
+  className: White mage
+  classDescription: Support-focused spellcaster using staves and robes, specializing
+    in healing and defensive white magic
+  baseHP: 40
+  baseMP: 25
+  strength: 6
+  defense: 6
+  intelligence: 12
+  agility: 7
+  hpGrowth: 9
+  mpGrowth: 7
+  strengthGrowth: 1
+  defenseGrowth: 1
+  intelligenceGrowth: 4
+  agilityGrowth: 1
+  allowedWeaponTypes: 000000000600000007000000
+  allowedArmorTypes: 0000000002000000050000000700000008000000
+  learnableAbilities:
+  - ability: {fileID: 11400000, guid: ac63bb3ac357b1c48ae052d2e7caa1c9, type: 2}
+    levelLearned: 1
+  - ability: {fileID: 11400000, guid: 74a3c73c5e4a5814a9d938e63272a378, type: 2}
+    levelLearned: 2
+  - ability: {fileID: 11400000, guid: b711d9c37d20a034fbdb6e71a6433457, type: 2}
+    levelLearned: 3
+  battleSprite: {fileID: 21300000, guid: fa20a759f0afdb74c9e87f07e91c7342, type: 3}
+  idleAnimation: {fileID: 7400000, guid: 730886c254a9f4e47b6b7f75f4b823c0, type: 2}
+  travelAnimation: {fileID: 7400000, guid: e6395f1b77fc55742b8bf8f1eb8bd028, type: 2}
+  attackAnimation: {fileID: 7400000, guid: 9b88ea8896fdcd04c9c6d4cdd3f72e4a, type: 2}
+  receivedDamageAnimation: {fileID: 7400000, guid: a3adb61b901dd77439a12c6d3c261517,
+    type: 2}
+  deadAnimation: {fileID: 7400000, guid: 5690adbb3206a0b45a3bb804f4d16419, type: 2}
+  attackSFX: {fileID: 8300000, guid: c285e6b8c9712014784e43473d97a384, type: 3}
+  travelVFXPrefab: {fileID: 8475491197590333196, guid: dc0d32e4741335241afdd5ebfb8bf32a,
+    type: 3}
